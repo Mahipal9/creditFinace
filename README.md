@@ -1,3 +1,8 @@
+- To setup project on local device, follow these steps:
+  1. Clone the repo first, use command `git clone git@github.com:Mahipal9/creditFinace.git`
+  2. Install dependencies, use command  `npm install`
+  3. To start the project, use command   `npm start`
+
 usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
