@@ -1,0 +1,203 @@
+.Overview {
+  display: flex;
+  background: #fff;
+  padding: 16px;
+  column-gap: 20px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-spaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no-of-employees {
+  display: flex;
+  background: #fff;
+  width: fit-content;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.textHeading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+.subHeading {
+  font-size: 12px;
+  font-weight: 400;
+  color: #afafaf;
+  margin-top: 2px;
+}
+
+.large-text {
+  font-size: 24px;
+  font-weight: 800;
+  color: #111;
+  margin-top: 4px;
+}
+
+.interestRatio {
+  display: flex;
+  background: #fff;
+  width: 500px;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  justify-content: space-between;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.ratioBox {
+  font-size: 12px;
+  font-weight: 400;
+  color: #61a75f;
+  margin: 12px;
+  padding: 8px;
+  background: #e5fee6;
+  border-radius: 4px;
+}
+
+.fundRaiseContainer {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 500px;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.creditContainer {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  width: fit-content;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.netProfit {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  width: auto;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.keyMetricsLeft {
+  display: flex;
+  background: #fff;
+  padding: 16px;
+  flex-direction: column;
+}
+
+.headerGap {
+  display: flex;
+  column-gap: 16px;
+}
+
+.currentLoansContainer {
+  background: #fff;
+  width: 500px;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.keyMetrics {
+  background: #fff;
+  width: 500px;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.netRevenue {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  width: auto;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.chartSize {
+  height: 500px;
+  width: 500px;
+}
+
+.contactUsContainer {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  border-radius: 4px;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+.contactSubHeading {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afafaf;
+  margin-left: 32px;
+}
+
+.customBoldText {
+  font-size: 14px;
+  font-weight: bold;
+  color: #afafaf;
+}
+.customBoldTextLeft {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.addText {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 32px;
+  margin-top: 16px;
+}
+
+.addTextData {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 32px;
+  color: #afafaf;
+}
+.mapStyle {
+  border-radius: 14px;
+  width: 500px;
+}
+
+.creditScoreMax {
+  font-size: 14px;
+  font-weight: 400;
+  color: #d8d8d8;
+  margin-top: 14px;
+  margin-left: 4px;
+}
